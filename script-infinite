@@ -1,0 +1,7 @@
+#!/bin/bash
+i=1
+while [ $i -lt 10 ] #Variable i never changes. Infinite!
+do
+    echo "forever"
+done
+
